@@ -1,0 +1,83 @@
+YULE LOGon
+
+# Manipulating Android Applications
+https://www.youtube.com/watch?v=mo2yZVRicW0
+
+# how to mount cranberry image
+http://www.linuxquestions.org/questions/linux-general-1/how-to-mount-img-file-882386/
+sudo mount -o loop,offset=70254592 cranbian-jessie.img cran
+
+# cranpi username & password
+cranpi:$6$2AXLbEoG$zZlWSwrUSD02cm8ncL6pmaYY/39DUai3OGfnBbDNjtx2G99qKbhnidxinanEhahBINm/2YyjFihxg7tgc343b0:17140:0:99999:7:::
+salt = 2AXLbEoG
+
+# run john reaper
+
+# Actually, I wrote a small python program to go thru an adapted english dictionary
+sed "/^...$/d" english_dict -i (remove accents and words with 3 characters or less)
+sed "/^[A-Z].*$/d" english_dict -i # taking away words starting with upper case
+
+# Open door
+*********************************
+* To open the door, find both parts of the passphrase inside the /out.pcap file
+*********************************
+in the sudo man page we can see that scratchy can run tcpdump and strings as user itchy
+$ sudo -l
+reading from file /out.pcap, link-type EN10MB (Ethernet)
+scratchy@3dcc13b08c4c:~$ vim prettier 
+scratchy@3dcc13b08c4c:~$ sudo -l
+sudo: unable to resolve host 3dcc13b08c4c
+Matching Defaults entries for scratchy on 3dcc13b08c4c:
+    env_reset, mail_badpass,
+    secure_path=/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/bin
+User scratchy may run the following commands on 3dcc13b08c4c:
+    (itchy) NOPASSWD: /usr/sbin/tcpdump
+    (itchy) NOPASSWD: /usr/bin/strings
+
+after that, I ran:
+$ sh -c "sudo -u itchy tcpdump -qns 0 -A -r /out.pcap" >pretty
+
+and got some interesting things:
+- part1" value="santasli
+
+# Copied from chris
+sudo -u itchy strings --encoding=l out.pcap
+part2:ttlehelper
+
+# At workshop
+Connected to the wall and needed to get to the deepest of my directories to get the passphrase
+Using 'find', I got the deepest as : ~/.doormat/. / /\/\\/Don't Look Here!/You are persistent, aren't you?/'$
+Then just cat the file 'key_for_the_door.txt' and 'open_sesame' it is!
+
+# At Santa's Office
+There's a terminal that says "Greetings professor falken", just follow the order just as in the movie:
+https://www.youtube.com/watch?v=KXzNo0vR_dU
+and then it'll get you to the passphrase
+'LOOK AT THE PRETTY LIGHTS'
+
+# At the corridor
+
+# Retrieving users from parse server
+curl -X GET \
+  -H "X-Parse-Application-Id: ciy248KmH8uo8efusuTQ" \
+  -H "X-Parse-Client-Key: kC2jgdZT3IGYQ9ZlNflY" \
+  -H "Content-Type: application/json" \
+  "https://www.northpolewonderland.com/parse/login"
+
+# At the workshop or somewhere else, playing with wumpus
+after playing a couple of rounds, i read the rules somewhere else and got the wumpus!
+Passphrase:
+WUMPUS IS MISUNDERSTOOD
+
+# At Santa's office, messing around with the train
+I got the train management console. The way I got passed it is through a tip on the help menu saying "unLESS"
+This means that the help menu is opening the 'less' program, which allows me to run arbitrary commands by pressing '!'
+Then I used the '!' command to execute '!ls -lah /home/conductor' and then '!/home/conductor/ActivateTrain' and voi-la!!!!
+
+I got back to 1978 and started exploring stuff around. After 5 min of nothing, I decided to go back to Santa's office
+This time, I went to the reindeers house and santa was there!!!!! at DFER - Dungeon For Errant Reindeer
+
+# IP List
+Train: 172.17.0.3/16
+Northpole website: 130.211.124.143
+
